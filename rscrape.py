@@ -47,4 +47,4 @@ for link in links:
 outfile = subreddit + ".json"
 
 with open(outfile, 'w') as outfile:
-    json.dump(extracted_records, outfile)
+    json.dump(extracted_records, outfile, indent=4)
